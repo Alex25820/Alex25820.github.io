@@ -58,6 +58,7 @@ header p {
 main {
     padding: 50px 10% 90px;
     background-color: #262626;
+    min-height: calc(100vh - 76.8px - 100px - 40px);
 }
 
 footer {
@@ -104,5 +105,12 @@ footer p {
     main {
         padding-left: 5%;
         padding-right: 5%;
+        min-height: calc(100vh - 64px - 100px - 40px);
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        min-height: calc(100vh - 92.8px - 100px - 40px);
     }
 }
