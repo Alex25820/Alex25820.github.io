@@ -23,7 +23,7 @@ main {
 }
 
 #home-button {
-    margin: 25px;
+    margin: 25px auto;
     text-decoration: none;
 }
 
